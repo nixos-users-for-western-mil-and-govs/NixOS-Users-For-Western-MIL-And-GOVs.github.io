@@ -47,7 +47,7 @@ jobs:
           tar cf ../www.tar.gz .
 
       - name: Upload repacked archive to Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: 'github-pages'
           path: 'www.tar.gz'
